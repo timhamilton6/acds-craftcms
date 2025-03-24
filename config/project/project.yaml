@@ -1,0 +1,22 @@
+dateModified: 1742835676
+email:
+  fromEmail: tim.hamilton@acdsglobal.com
+  fromName: 'ACDS Craft'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    3f6c490b-2819-4f89-9c1f-6da85df8ff8d: 'ACDS Craft' # ACDS Craft
+    e1327238-15f5-4c7c-b3eb-f94a974dceb3: 'ACDS Craft' # ACDS Craft
+system:
+  edition: solo
+  live: true
+  name: 'ACDS Craft'
+  schemaVersion: 5.6.0.2
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

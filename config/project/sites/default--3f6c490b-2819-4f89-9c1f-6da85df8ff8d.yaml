@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-US
+name: 'ACDS Craft'
+primary: true
+siteGroup: e1327238-15f5-4c7c-b3eb-f94a974dceb3 # ACDS Craft
+sortOrder: 1
