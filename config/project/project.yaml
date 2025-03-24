@@ -1,11 +1,20 @@
-dateModified: 1742835676
+dateModified: 1742837578
 email:
   fromEmail: tim.hamilton@acdsglobal.com
   fromName: 'ACDS Craft'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  hardDisk:
+    hasUrls: true
+    name: 'Hard Disk'
+    settings:
+      path: '@webroot/uploads'
+    type: craft\fs\Local
+    url: '@uploads'
 meta:
   __names__:
     3f6c490b-2819-4f89-9c1f-6da85df8ff8d: 'ACDS Craft' # ACDS Craft
+    8616d942-3fd2-4b14-a472-cc1d5f1ccaa2: Images # Images
     e1327238-15f5-4c7c-b3eb-f94a974dceb3: 'ACDS Craft' # ACDS Craft
 system:
   edition: solo

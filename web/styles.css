@@ -1,0 +1,70 @@
+/* mix-ins */
+/* vars */
+/*global & resets*/
+* {
+  box-sizing: border-box;
+}
+
+a, a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #111827;
+  color: #ffffff;
+  margin: 4rem 0;
+}
+
+/*type*/
+h2 {
+  text-align: center;
+}
+
+.emph {
+  color: #79FAE9;
+}
+
+/*buttons*/
+.button-primary {
+  color: #111827;
+  background: #79FAE9;
+}
+
+.button-small {
+  padding: 0.75rem 1.25rem;
+  font-size: 0.875rem;
+  border-radius: 8px;
+}
+
+/*nav*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+nav .logo {
+  background: #79FAE9;
+  padding: 25px 75px;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  margin: 0 1.5rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

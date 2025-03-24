@@ -1,0 +1,50 @@
+/* mix-ins */
+@mixin item-pad {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+/* vars */
+$dark: #111827;
+$light: #ffffff;
+$primary: #79FAE9;
+
+$small: .875rem;
+
+$radius-reg: 8px;
+
+/*global & resets*/
+* {box-sizing: border-box;}
+a, a:visited {color: #fff; text-decoration: none;}
+ul {margin: 0; padding: 0;}
+li {list-style-type:none;}
+
+body {
+    font-family: "Inter", sans-serif;
+    background: $dark;
+    color: $light;
+    margin: 4rem 0;
+}
+
+/*type*/
+h2 {text-align: center;}
+.emph {color: $primary;}
+
+/*buttons*/
+.button-primary {color: $dark; background: $primary;}
+.button-small { padding: .75rem 1.25rem; font-size: $small; border-radius: $radius-reg;}
+
+
+
+
+/*nav*/
+nav {display: flex; justify-content: space-between; align-items: center; padding-top: 1rem; @include item-pad;
+    
+    .logo {background: $primary; padding: 25px 75px;}
+    ul {display: flex;
+        li {margin: 0 1.5rem;}
+    }
+    
+}
+
+
